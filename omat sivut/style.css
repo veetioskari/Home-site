@@ -53,7 +53,7 @@ textarea{
     background-color: #F4DFBA;
     overflow:auto;
     border-color: black;
-    border-bottom: 2px solid;
+    border-bottom: 1.5px solid;
 }
 
 h2{
@@ -104,7 +104,11 @@ form .submit{
     font-family: quiksand;
 }
 
-@media (max-width: 600px){
+.instagram {
+    min-width: 25%;
+}
+
+@media (max-width: 850px){
     .profiilit{
         min-width: 90%;
         margin-left: 5%;
