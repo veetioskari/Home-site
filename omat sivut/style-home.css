@@ -1,0 +1,245 @@
+@media (min-width:960px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 100%;
+    }
+    ul{
+        width: 100%;
+        display: table;
+        text-align: center;
+        background-color: black;
+    }
+    ul li{
+        list-style: none;
+        display: inline-flex;
+        float: none;
+        line-height: 8vh;
+    }
+    
+    ul li a{
+        font-size: 2.5vh;
+        text-decoration: none;
+        color: white;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        min-height: 8vh;
+        position: relative;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        height: 100%;
+    }
+    
+    a:hover{
+        color: black;
+        background-color: white;
+    
+    }
+    
+    
+    body{
+        background-color: whitesmoke;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    h1{
+        font-size: 5vw;
+        font-weight: 600;
+    }
+
+    #content hr{
+        display: none;
+    }
+
+    #message{
+        width: 100%;
+        height: 63.5vh;
+        align-items: center;
+    }
+
+    #message #primary-message{
+        font-size: 3vh;
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    #message #secondary-message{
+        font-size: 2vh;
+    }
+
+    #message hr{
+        margin-top: 1.5vh;
+        display: block !important;
+        width: 20%;
+        margin-left: 40%;
+        border-top: 1.5px solid black;
+        margin-bottom: 2vh;
+    }
+
+    #message #secondary-message{
+        text-align: center;
+    }
+
+    #footer{
+        background-color: black;
+        height: 7vh;
+        color: aliceblue;
+        display: flex;
+    }
+
+    #footer #footer-info-left{
+        text-align: left;
+        height: 100%;
+        width: 50%;
+    }
+
+    #footer #footer-info-left h6{
+        font-weight: 50;
+        margin-top: 2.5vh;
+        margin-left: 3vw;
+        font-size: 2vh;
+    }
+
+    #footer #footer-info-right{
+        text-align: right;
+        height: 100%;
+        width: 50%;
+    }
+
+    #footer #footer-info-right #link{
+        font-size: 2vh;
+        font-weight: 50;
+        margin-top: 2.5vh;
+        margin-right: 3vw;
+        font-size: 2vh;
+    }
+    
+    #footer #footer-info-right #link a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+}
+
+
+@media (max-width:960px){
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    nav{
+        width: 100%;
+        height: 100%;
+    }
+    ul{
+        width: 100%;
+        display: table;
+        text-align: center;
+        background-color: rgb(0, 0, 0);
+    }
+    ul li{
+        list-style: none;
+        display: inline-flex;
+        float: none;
+        line-height: 8vh;
+    }
+    
+    ul li a{
+        font-size: 2.5vh;
+        text-decoration: none;
+        color: white;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        min-height: 8vh;
+        position: relative;
+        padding-right: 2vw;
+        padding-left: 2vw;
+        height: 100%;
+    }
+    
+    a:hover{
+        color: black;
+        background-color: white;
+    
+    }
+    
+    
+    body{
+        background-color: whitesmoke;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    h1{
+        font-size: 5vh;
+        font-weight: 600;
+    }
+
+
+    hr{
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+        border-top: 1.5px solid black;
+    }
+
+    #footer{
+        margin-top: 4vh;
+        background-color: black;
+        height: 7vh;
+        color: aliceblue;
+        display: flex;
+    }
+
+    #footer #footer-info-left{
+        text-align: left;
+        height: 100%;
+        width: 50%;
+    }
+
+    #footer #footer-info-left h6{
+        font-weight: 50;
+        margin-top: 2.5vh;
+        margin-left: 3vw;
+        font-size: 2vh;
+    }
+
+    #footer #footer-info-right{
+        text-align: right;
+        height: 100%;
+        width: 50%;
+    }
+
+    #footer #footer-info-right #link{
+        font-size: 2vh;
+        font-weight: 50;
+        margin-top: 2.5vh;
+        margin-right: 3vw;
+        font-size: 2vh;
+    }
+    
+    #footer #footer-info-right #link a{
+        color: aliceblue;
+        text-decoration: none;
+    }
+
+    
+}
+
+#header h1{
+    font-size: 10vh;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+#header hr{
+    width: 35vh;
+    margin: auto;
+    border-top: 2px solid black;
+    margin-bottom: 6vh;
+}
